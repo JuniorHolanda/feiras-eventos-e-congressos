@@ -1,0 +1,17 @@
+[
+  {
+    "name": "térmica jl",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078623/banner_termicas_2_gmhzu4.jpg",
+    "altImg": "Uma térmica cinza sobre uma mesa em um parque"
+  },
+  {
+    "name": "mochila adv",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078448/banner_mochila_23_olsqlf.jpg",
+    "altImg": "Um homem de costas usando uma mochila, ao fundo alguns prédios"
+  },
+  {
+    "name": "necessaire cn",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078474/banner_necessaires_2_jwndmc.jpg",
+    "altImg": "Uma necessaire vermelha em uma prateleira ao lado de vários livros"
+  }
+]
