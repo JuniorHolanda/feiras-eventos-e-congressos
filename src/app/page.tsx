@@ -53,15 +53,18 @@ export const metadata: Metadata = {
 export default async function Home() {
 
   const keywords = [
+    'Pasta Lob',
     'Pasta Ibm Note',
-    'Bag Mi',
-    'Térmica AE Tri',
-    'Mochila Adv G',
+    'Pasta Ibm',
     'Pasta Sinc',
-    'Caixa de Som bluetooth',
-    'Térmica JL',
-    'Necessaire CN',
-    'Kit Higiene Bucal'
+    'Bolsa Graci',
+    'Bolsa Trip',
+    'Bolsa Pst',
+    'Bolsa Carteiro Hb',
+    'Bolsa Rss',
+    'Bolsa Colg',
+    'Pasta Fran',
+    'Kit Anotações'
   ];
 
 
@@ -77,8 +80,8 @@ export default async function Home() {
   return (
     <Shome>
       <Header
-        title="Dia dos Professores"
-        text="Nossas sugestões de brindes para celebrar o Dia dos Professores."
+        title="FEIRAS, EVENTOS E CONGRESSOS"
+        text="Confira nossas sugestões de brindes"
       />
       <section>
         <Slider slides={sliderProduct} />
