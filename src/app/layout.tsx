@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dia dos Professores",
-  description: "Confira nossas sugestões de brindes para o Dia dos Professores",
+  title: "FEIRAS, EVENTOS E CONGRESSOS",
+  description: "Confira nossas sugestões de brindes para feiras, eventos e congressos",
   // Favicon
   icons: {
     icon: '/favicon.png',
