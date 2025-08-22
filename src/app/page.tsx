@@ -6,48 +6,6 @@ import { ScontainerImg, Shome, Slink } from "./page.styled";
 import { Product } from "@/utils/interface";
 import sliderProduct from "@/app/data/slides.json"
 import { GoBook } from "react-icons/go";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Dia dos Professores",
-  description: "Confira nossas sugestões de brindes para o Dia dos Professores",
-  // Favicon
-  icons: {
-    icon: '/favicon.png',
-  },
-
-  // Open Graph (Facebook, LinkedIn, WhatsApp)
-  openGraph: {
-    title: "Dia dos Professores",
-    description: "Confira nossas sugestões de brindes para o Dia dos Professores",
-    type: 'website',
-    url: 'https://seusite.com.br/dia-dos-professores',
-    images: [
-      {
-        url: 'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1755523544/dia-dos-professores_irf8uq.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Brindes personalizados para o Dia dos Professores',
-      },
-    ],
-  },
-
-  // Twitter Card
-  twitter: {
-    card: 'summary_large_image',
-    title: "Dia dos Professores",
-    description: "Confira nossas sugestões de brindes para o Dia dos Professores",
-    images: [
-      'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1755523544/dia-dos-professores_irf8uq.jpg',
-    ],
-  },
-
-  // Robôs de indexação (opcional)
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
 
 
 export default async function Home() {
