@@ -24,8 +24,8 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
-          <title>Dia dos Professores</title>
-          <meta name="description" content="Confira nossas sugestões de brindes para o Dia dos Professores" />
+          <title>FEIRAS, EVENTOS E CONGRESSOS</title>
+          <meta name="description" content="Confira nossas sugestões de brindes para feiras, eventos e congressos" />
 
           {/* Favicon */}
           <link rel="icon" href="/favicon.png" />
@@ -35,7 +35,7 @@ export default function RootLayout({
           <meta property="og:description" content="Confira nossas sugestões de brindes para feiras, eventos e congressos" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="catalogo.miriammomesso.com.br" />
-          <meta property="og:image" content="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1755873649/dia-dos-professores_xhohjv.jpg" />
+          <meta property="og:image" content="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1755880482/feira-evento-congresso_rkeeg5.jpg" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
 
@@ -43,7 +43,7 @@ export default function RootLayout({
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="FEIRAS, EVENTOS E CONGRESSOS" />
           <meta name="twitter:description" content="Confira nossas sugestões de brindes para feiras, eventos e congressos" />
-          <meta name="twitter:image" content="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1755873649/dia-dos-professores_xhohjv.jpg" />
+          <meta name="twitter:image" content="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1755880482/feira-evento-congresso_rkeeg5.jpg" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <ThemeProviderWrapper>

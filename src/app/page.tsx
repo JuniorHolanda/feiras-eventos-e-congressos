@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     url: 'catalogo.miriammomesso.com.br',
     images: [
       {
-        url: 'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1755873649/dia-dos-professores_xhohjv.jpg',
+        url: 'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1755880482/feira-evento-congresso_rkeeg5.jpg',
         width: 600,
         height: 600,
-        alt: 'Brindes personalizados para o Dia dos Professores',
+        alt: 'logo da empresa miriam momesso mais nomes feira eventos e congresso',
       },
     ],
   },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "FEIRAS, EVENTOS E CONGRESSOS",
     description: "Confira nossas sugestões de brindes para feiras, eventos e congressos",
     images: [
-      'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1755873649/dia-dos-professores_xhohjv.jpg',
+      'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1755880482/feira-evento-congresso_rkeeg5.jpg',
     ],
   },
 
