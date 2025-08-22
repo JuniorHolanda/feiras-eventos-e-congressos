@@ -76,7 +76,6 @@ export default async function Home() {
     keywords.some(keyword => item.title.includes(keyword))
   );
 
-
   return (
     <Shome>
       <Header

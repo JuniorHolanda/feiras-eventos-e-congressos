@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import ThemeProviderWrapper from "./components/ThemeProviderWrapper";
 import GlobalStylesProvider from "./components/GlobalStyleProvider";
+import { Sbtn } from "./components/BtnWhatsApp/btnWhatsApp.styled";
+import BtnZap from "./components/BtnWhatsApp";
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -86,6 +90,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <ThemeProviderWrapper>
           <GlobalStylesProvider />
+          <BtnZap />
           {children}
         </ThemeProviderWrapper>
       </body>
