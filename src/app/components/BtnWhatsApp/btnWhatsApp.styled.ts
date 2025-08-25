@@ -16,8 +16,14 @@ export const Sbtn = styled(FaWhatsapp)`
     color: ${({theme}) => theme.colors.primary};
     padding: 10px;
     cursor: pointer;
+    z-index: 1;
     
     &:hover{
         color: #075e54;
+    }
+
+
+    @media (max-width: ${({theme}) => theme.breakpoints.mobile}) {
+        font-size: 3em;
     }
 `
